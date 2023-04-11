@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(52, 121, 121);
+  width: 100vw;
+  height: 7vh;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+}
+
+body {
+  background-color: black;
+  height: 6000px;
+  font-family: "nanumsquare";
+}
+
+div {
+  color: white;
+  text-align: center;
+  margin-top: 1000px;
+  font-size: 300%;
+  opacity: 0; //불투명도 올라갈수록 투명해짐
+  transition: all 60s; //opacity가 변경이 되면 0.5초에 걸쳐서 변경을 해줄거임
+  transform: rotate(-720deg);
+}
